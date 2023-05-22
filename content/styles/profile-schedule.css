@@ -29,6 +29,7 @@
     justify-content: center;
     text-align: center;
     margin-bottom: -25px;
+    margin-left: 10px;
 }
 
 .text-schedule button{
@@ -51,10 +52,10 @@
 
 .profile-schedule-calender{
     background-color: #FFCF00;
-    width: 500px;
+    width: 450px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .icon-person span{
@@ -69,6 +70,7 @@
     height: 200px;
     margin-top: 20px;
 }
+
 
 .icon-edit span{
     background-color: #FFFFFF;
@@ -86,8 +88,9 @@
 }
 
 .profile-schedule-name{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .profile-schedule-month{
@@ -145,10 +148,23 @@
     font-size: 12px;
     border: 1px solid transparent;
     margin-left: 228px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .profile-schedule-dados span{
     font-size: 17px;
     margin-left: 5px;
+}
+
+.schedule-background{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 851;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    z-index: 999;
 }
