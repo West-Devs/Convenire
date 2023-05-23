@@ -1,0 +1,339 @@
+.profile-info {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/bckg.svg);
+    background-size: 100%;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.shadow_sub {
+    width: 100%;
+    height: 819.2px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input_border {
+    width: 288px;
+    height: 20px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 32px;
+    height: 1.2px;
+    background-color: #FFCC00;
+}
+
+.input_border_size2 {
+    width: 168px;
+    height: 20px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border_size2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 32px;
+    height: 1.2px;
+    background-color: #FFCC00;
+}
+
+.input_border_size3 {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border_size3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 32px;
+    height: 1.2px;
+    background-color: #FFCC00;
+}
+
+.input_border_size4 {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border_size4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 32px;
+    height: 1.2px;
+    background-color: #FFCC00;
+}
+
+.submenu_2 {
+    width: 400px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    background: #FFCC00;
+    box-shadow: 0px 3.2px 3.2px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+}
+
+.submenu_2 img {
+    margin-top: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+.submenu_2 h2 {
+    margin-top: 21px;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29.6px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.field_back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 9.6px;
+    gap: 8px;
+    width: 80px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    justify-content: center;
+}
+
+.field_back h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.6px;
+}
+
+.submenu_2 fieldset {
+    display: flex;
+    width: 325.6px;
+    height: 376px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    flex-direction: column;
+    border: none;
+}
+
+.submenu_2 h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.6px;
+    line-height: 12px;
+}
+
+.submenu_2 input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9.6px;
+    margin-left: 5.2px;
+    border: none;
+}
+
+.submenu_2 input:focus {
+    outline: none;
+}
+
+.submenu_2 input::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9.6px;
+}
+
+.field-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data_field {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 8px;
+    width: 60px;
+    height: 20px;
+    justify-content: center;
+    background: #FFCC00;
+    border-radius: 4px;
+}
+
+.data_field h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.8px;
+    line-height: 12px;
+}
+
+.field_address {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+    gap: 8px;
+    width: 60px;
+    height: 20px;
+    left: 118.072px;
+    top: 0px;
+    background: #FFCC00;
+    border-radius: 4px;
+}
+
+.field_address h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.8px;
+    line-height: 12px;
+}
+
+.field_save {
+    width: 104px;
+    height: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.6px 1.6px;
+    gap: 8px;
+    background: #3DBD3D;
+    box-shadow: 0px 3.2px 3.2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.field_save h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9.6px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.fieldset-1 {
+    display: flex;
+    width: 289.6px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 9.6px;
+    gap: 1.6px;
+}
+
+.fieldset-1 input {
+    width: 280px;
+    height: 9.6px;
+}
+
+.fieldset-2 {
+    display: flex;
+    width: 289.6px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 9.6px;
+    gap: 12.8px;
+}
+
+.fieldset-3 {
+    display: flex;
+    width: 289.6px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12.8px;
+}
+
+.fieldset-4 {
+    display: flex;
+    width: 289.6px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 9.6px;
+    gap: 12.8px;
+}
+
+.fieldset-5 {
+    display: flex;
+    width: 289.6px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 9.6px;
+    gap: 12.8px;
+}
+
+.field_holder {
+    display: flex;
+    width: 325.6px;
+    justify-content: flex-end;
+    align-items: center;
+    filter: drop-shadow(0px 3.2px 3.2px rgba(0, 0, 0, 0.25));
+}
