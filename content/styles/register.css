@@ -1,0 +1,366 @@
+@import url("shared.css");
+
+.register {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/backgroundImage.svg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.register input::focus {
+    outline: none;
+    border: none;
+}
+
+.register input {
+    outline: none;
+    border: none;
+}
+
+.imagem {
+    display: flex;
+    justify-content: right;
+}
+
+.input_border {
+    width: 345.6px;
+    height: 24px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 38.4px;
+    height: 1.44px;
+    background-color: #FFCC00;
+}
+
+.input_border_size2 {
+    width: 201.6px;
+    height: 24px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border_size2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 38.4px;
+    height: 1.44px;
+    background-color: #FFCC00;
+}
+
+.input_border_size3 {
+    width: 120px;
+    height: 24px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border_size3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 38.4px;
+    height: 1.44px;
+    background-color: #FFCC00;
+}
+
+.input_border_size4 {
+    width: 120px;
+    height: 24px;
+    position: relative;
+    border: 2px solid #FFCC00;
+    border-right-width: 0;
+    border-top-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.input_border_size4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 38.4px;
+    height: 1.44px;
+    background-color: #FFCC00;
+}
+
+.submenu_2 {
+    padding-top: 20px;
+    position: absolute;
+    z-index: 999;
+    width: 475px;
+    height: 713.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.2px 3.2px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+}
+
+.submenu_2 img {
+    margin-top: 8px;
+    width: 240px;
+    height: 240px;
+}
+
+
+
+.new-title {
+    margin-top: 80px;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35.52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.field_back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 96px;
+    height: 24px;
+    background-color: #FFCC00;
+}
+
+.field_back h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.52px;
+    line-height: 14.4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.submenu_2 fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 390.72px;
+    height: 451.2px;
+    padding: 0px;
+    border: none;
+}
+
+.submenu_2 h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.52px;
+    line-height: 14.4px;
+    color: #000000;
+}
+
+.submenu_2 input {
+    width: 100%;
+    height: 24px;
+    padding: 0px;
+    margin-left: 6px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.6px;
+    line-height: 11.52px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.submenu_2 input::placeholder {
+    color: #000000;
+    opacity: 0.5;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.6px;
+    line-height: 11.52px;
+}
+
+.data_field {
+    margin-top: 28.8px;
+    margin-bottom: 14.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4.8px 14.4px;
+    gap: 9.6px;
+    width: 72px;
+    height: 24px;
+    left: 141.6864px;
+    top: 0px;
+    background: #FFCC00;
+    border-radius: 4px;
+}
+
+.data_field h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.36px;
+    line-height: 14.4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.field_address {
+    margin-top: 28.8px;
+    margin-bottom: 14.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4.8px 14.4px;
+    gap: 9.6px;
+    width: 72px;
+    height: 24px;
+    left: 141.6864px;
+    top: 0px;
+    background: #FFCC00;
+    border-radius: 4px;
+}
+
+.field_address h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.36px;
+    line-height: 14.4px;
+}
+
+.field_register {
+    width: 124.8px;
+    height: 14.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6.72px 1.92px;
+    gap: 9.6px;
+    background: #3DBD3D;
+    box-shadow: 0px 3.84px 3.84px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 19.2px;
+}
+
+.field_register h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11.52px;
+    line-height: 14.4px;
+    color: #FFFFFF;
+}
+
+.fieldset-1 {
+    display: flex;
+    width: 347.52px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 11.52px;
+    gap: 1.92px;
+}
+
+.fieldset-1 input {
+    width: 336px;
+    height: 11.52px;
+}
+
+.fieldset-2 {
+    display: flex;
+    width: 347.52px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 11.52px;
+    gap: 15.36px;
+}
+
+.fieldset-3 {
+    display: flex;
+    width: 347.52px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15.36px;
+}
+
+.fieldset-4 {
+    display: flex;
+    width: 347.52px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 11.52px;
+    gap: 15.36px;
+}
+
+.fieldset-5 {
+    display: flex;
+    width: 347.52px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 11.52px;
+    gap: 15.36px;
+}
+
+.field_holder {
+    display: flex;
+    width: 390.72px;
+    justify-content: flex-end;
+    align-items: center;
+    filter: drop-shadow(0px 4.8px 4.8px rgba(0, 0, 0, 0.25));
+}
+
+.field-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-2 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
