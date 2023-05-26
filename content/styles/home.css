@@ -10,6 +10,7 @@
     border-bottom: 3px solid var(--primary-color);
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 .header h1{
@@ -58,6 +59,18 @@
     color: var(--white-color);
     background-color: var(--primary-color);
     font-weight: 800;
+}
+
+.header-btns a {
+    text-decoration: none;
+}
+
+.cadastrar {
+    color: var(--primary-color);
+}
+
+.entrar {
+    color: var(--white-color);
 }
 
 .home {
@@ -120,7 +133,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 1;
     background-color: #fff;
     border: 3px solid var(--primary-color);
     margin: 4rem 1.5rem 0 0;
