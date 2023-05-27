@@ -1,0 +1,170 @@
+.schedule-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-girl-schedule{
+    width: 550px;
+    height: 400px;
+}
+
+.img-tree-schedule{
+    width: 650px;
+    height: 650px;
+    transform: rotate(3deg);
+}
+
+.text-schedule p{
+    background-color: rgba(217, 217, 217, 0.5);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    width: 765px;
+    height: 110px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -25px;
+    margin-left: 10px;
+}
+
+.text-schedule button{
+    background-color: #FFCF00;
+    width: 180px;
+    height: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-weight: 550;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-left: 650px;
+    
+}
+
+.profile-schedule-calender{
+    background-color: #FFCF00;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.icon-person span{
+    font-size: 170px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -30px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+.icon-edit span{
+    background-color: #FFFFFF;
+    font-size: 30px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 204, 0, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile-schedule-name{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.profile-schedule-month{
+    background-color: #FFFFFF;
+    padding: 25px 25px 20px 25px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-schedule-month button{
+    width: 180px;
+    height: 45px;
+    background: #FFCC00;
+    border: 1px solid #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-schedule-month img{
+    width: 300px;
+    height: 350px;
+}
+
+.profile-schedule-month p{
+    font-size: 15px;
+    color: #FFCC00;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.profile-schedule-dados button{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid transparent;
+    margin-left: 228px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.profile-schedule-dados span{
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.schedule-background{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 851;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    z-index: 999;
+}
