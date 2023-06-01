@@ -101,7 +101,7 @@
 
 .desc-container button{
     cursor: pointer;
-    width: 12vw;
+    width: 13vw;
     height: 6vh;
     position: absolute;
     left: 32vw;
@@ -191,4 +191,100 @@
 
 .carrossel {
     margin: 1rem 0rem 1rem 0rem;
+}
+
+@media (min-width: 1336px) and (max-width: 1920px) {
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    height: 11vh;
+}
+
+.header h1 {
+    font-size: 28px;
+}
+
+.home {
+    padding-top: 7rem;
+}
+
+.desc-img {
+    width: 70%;
+}
+
+.desc-container p{
+    width: 40vw;
+    font-size: 14px;
+}
+
+.desc-container button{
+    left: 33vw;
+    top: 16vh;
+    font-size: 14px;
+}
+
+.testimony-img-background {
+    width: 75%;
+}
+
+.testimony-img {
+    position: absolute;
+    z-index: 0;
+    top: -15vh;
+    right: -13vw;
+}
+
+.testimonials {
+    width: 19rem;
+    height: 28rem;
+    margin: 3rem 8rem 0 0;
+}
+
+.testimonials h1{
+    color: white;
+    font-size: 14px;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+}
+
+.testimony {
+    width: 16rem;
+    height: 6rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.testimony p{
+    font-size: 12px;
+    margin: -0.3rem 0rem 0.6rem 1rem;
+}
+
+.user {
+    margin: 1rem 0rem 0.5rem 0.5rem;
+}
+
+.user img {
+    width: 12%;
+    margin: -0.3rem 0 0 0
+}
+
+.user h4{
+    font-size: 12px;
+    margin: -0.3rem 0 0 0.2rem
+ }
+
+.date {
+    text-align: right;
+    margin-right: 1rem;
+    font-size: 10px;
+    margin: -0.3rem 0.6rem 0rem 0rem;
+}
+
+.carrossel {
+    width: 20%;
+    margin: 0.7rem 0rem 0.5rem 0rem;
+}
+
 }
