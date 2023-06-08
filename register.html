@@ -25,17 +25,58 @@
                 <form class="cadastro-form" action="">
                     <fieldset class="form-dados">
                         <h1 class="fieldset-title">Dados</h1>
-                        <div class="input-container">
-                            <label for="nome">Nome Completo</label>
-                            <input id="nome" type="text">
-                        </div>
-                        <div>
-
+                        <div class="inputs-container">
+                            <div class="input-container">
+                                <label for="nome">Nome Completo</label>
+                                <input id="nome" type="text" placeholder="Nome completo" class="input-xl">
+                            </div>
+                            <div class="input-grid-dados">
+                                <div class="input-container">
+                                    <label for="documento">Documento</label>
+                                    <input id="documento" type="text" placeholder="Documento" class="input-m">
+                                </div>
+                                <div class="input-container">
+                                    <label for="dtNascimento">Nascimento</label>
+                                    <input id="dtNascimento" type="text" placeholder="Nascimento" class="input-s">
+                                </div>
+                                <div class="input-container">
+                                    <label for="email">E-mail</label>
+                                    <input id="email" type="text" placeholder="E-mail" class="input-m">
+                                </div>
+                                <div class="input-container">
+                                    <label for="celular">Celular</label>
+                                    <input id="celular" type="text" placeholder="Celular" class="input-s">
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
                     <fieldset class="form-endereco">
                         <h1 class="fieldset-title">Endereço</h1>
+                        <div class="inputs-container">
+                            <div class="input-grid-endereco-first">
+                                <div class="input-container">
+                                    <label for="documento">Documento</label>
+                                    <input id="documento" type="text" placeholder="Documento" class="input-m">
+                                </div>
+                                <div class="input-container">
+                                    <label for="dtNascimento">Nascimento</label>
+                                    <input id="dtNascimento" type="text" placeholder="Nascimento" class="input-s">
+                                </div>
+                            </div>
+
+                            <div class="input-grid-endereco-second">
+                                <div class="input-container">
+                                    <label for="email">E-mail</label>
+                                    <input id="email" type="text" placeholder="E-mail" class="input-m">
+                                </div>
+                                <div class="input-container">
+                                    <label for="celular">Celular</label>
+                                    <input id="celular" type="text" placeholder="Celular" class="input-s">
+                                </div>
+                            </div>
+                        </div>
                     </fieldset>
+                    <button class="btn-submit">Cadastrar</button>
                 </form>
            </div>
            <div class="logo-container">

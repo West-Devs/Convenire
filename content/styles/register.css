@@ -2,35 +2,37 @@
 
 .register {
     display: grid;
-    grid-template-columns: 1.6fr 3fr;
+    grid-template-columns: 2fr 3fr;
 }
 
 .cadastro-title {
     font-family: var(--primary-font);
-    font-size: 20px;
-    border-bottom: 5px solid var(--primary-color);
+    font-size: 18px;
+    border-bottom: 4px solid var(--primary-color);
     width: 16vw;
     text-align: center;
     color: #242424;
     padding-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 
 .form-container {
     height: 100vh;
-    border-right: 2px solid var(--primary-color);
+    border-right: 2.5px solid var(--primary-color);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .logo-container {
     background-image: url(../img/Background\ Cadastro.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 101%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,15 +54,22 @@
     flex-direction: column;
 }
 
+.inputs-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    width: 30vw;
+}
+
 .fieldset-title {
     font-family: var(--primary-font);
-    padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     background-color: var(--primary-color);
     color: #242424;
     border: 1px solid var(--four-color);
     border-radius: 10px;
-    font-size: 18px;
-    margin: 2rem 0rem 2rem 0rem;
+    font-size: 15px;
+    margin: 1rem 0rem 1rem 0rem;
     width: 5rem;
     text-align: center;
 }
@@ -72,10 +81,78 @@
 .input-container {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    width: 100%;
+    margin: 0.5rem 0rem 1rem 0rem;
 }
 
 .input-container label{
     margin-bottom: 0.4rem;
     width: 100%;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input-grid-dados {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    justify-items: center;
+    grid-column-gap: 2rem; 
+}
+
+.input-grid-endereco-first {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    grid-column-gap: 2rem; 
+}
+
+.input-grid-endereco-second {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+    justify-items: center;
+    grid-column-gap: 2rem; 
+}
+
+.input-xl, .input-m, .input-s {
+    border: 0;
+    border-bottom: 2px solid var(--primary-color);
+    border-left: 2px solid var(--primary-color);
+    padding: 0.2rem;
+}
+
+.input-xl, .input-m, .input-s::placeholder {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+.input-xl {
+    width: 100%;
+}
+
+.input-m {
+    width: 100%;
+}
+
+.input-s {
+    width: 100%
+}
+
+.btn-submit {
+    cursor: pointer;
+    margin: 1.2rem 0rem 1.5rem 0rem;
+    border: 0;
+    background-color: var(--green-color);
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    font-family: var(--primary-font);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.8s;
+}
+
+.btn-submit:hover {
+    background-color: #2f932f;
+    color: #ebebeb;
 }
