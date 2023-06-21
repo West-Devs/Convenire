@@ -65,6 +65,34 @@
     text-decoration: none;
 }
 
+.perfil-img-container {
+    background-color: var(--white-color);
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.7rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 12rem;
+    height: 3rem;
+    background-color: var(--primary-color);
+    margin-right: 3rem;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+}
+
 .cadastrar {
     color: var(--primary-color);
 }
@@ -233,8 +261,8 @@ body {
 .testimony-img {
     position: absolute;
     z-index: 0;
-    top: -15vh;
-    right: -13vw;
+    top: -12vh;
+    right: -9vw;
 }
 
 .testimonials {
