@@ -1,5 +1,40 @@
 @import url("shared.css");
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -69,7 +104,7 @@
     background-color: var(--white-color);
     border-radius: 100%;
     width: 2rem;
-    height: 2rem;
+    height: 1.9rem;
     margin: 0 0.7rem 0 1rem;
     display: flex;
     justify-content: center;
@@ -85,7 +120,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 12rem;
-    height: 3rem;
+    height: 2.8rem;
     background-color: var(--primary-color);
     margin-right: 3rem;
     font-family: var(--primary-font);
@@ -261,8 +296,8 @@ body {
 .testimony-img {
     position: absolute;
     z-index: 0;
-    top: -12vh;
-    right: -9vw;
+    top: -14vh;
+    right: -14vw;
 }
 
 .testimonials {
